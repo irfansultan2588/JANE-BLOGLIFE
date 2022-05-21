@@ -1,0 +1,387 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.maincont {
+  width: 100%;
+  height: 100%;
+}
+.header1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 5px 0 #00000000, 0 5px 10px 0 rgb(0 0 0 / 19%);
+}
+.btn2 {
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  background: linear-gradient(90deg, #47b7e5 -2.97%, #5369f6 102.38%);
+  border-radius: 28px;
+  font-size: 15px;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+}
+.btnn {
+  width: 8%;
+  margin-right: 30px;
+}
+.icc {
+  display: none;
+}
+.headmain {
+  width: 50%;
+  display: flex;
+}
+.logo {
+  margin-top: 5px;
+}
+.haed {
+  width: 50%;
+  margin-top: 15px;
+  text-align: center;
+}
+.haed1 {
+  width: 62%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 12px;
+  color: #0e2843;
+}
+.line {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid black;
+}
+/* ================== */
+.lorem {
+  width: 100%;
+  padding: 64px;
+  background-color: #ffff;
+  color: #0e2843;
+  margin-top: 5px;
+}
+.lorem1 {
+  margin-left: 6rem;
+}
+.spn {
+  position: relative;
+}
+.hight {
+  position: absolute;
+}
+/* ===========card========= */
+.maincard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f6f9fc;
+}
+.card2 {
+  display: flex;
+  justify-content: center;
+}
+.text {
+  width: 100%;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  padding: 2.375rem 2rem 5.688rem 2.5rem;
+  margin: 2rem;
+}
+.btn3 {
+  width: 100%;
+  max-width: 300px;
+  background: linear-gradient(90deg, #47b7e5 -2.97%, #5369f6 102.38%);
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+  margin-top: 3rem;
+}
+.para1 {
+  max-width: 250px;
+  margin-top: 20px;
+  color: #556281;
+}
+.para12 {
+  max-width: 250px;
+  margin-top: 25px;
+  color: #556281;
+}
+.haed2 {
+  margin-top: 3rem;
+  color: #031d44;
+}
+.haed23 {
+  margin-top: 5rem;
+  color: #031d44;
+}
+.hd2 {
+  color: #031d44;
+}
+.p2 {
+  margin-top: 1.5rem;
+  color: #283551;
+}
+.para3 {
+  margin-top: 2.8rem;
+  color: #556281;
+}
+.para4 {
+  color: #556281;
+}
+
+.icon1 {
+  display: flex;
+  margin-top: 1.5rem;
+}
+.p3 {
+  margin-left: 10px;
+  color: #283551;
+  font-size: 18px;
+  font-weight: 700;
+}
+.img3 {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .btnn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .icc {
+    display: block;
+    font-size: 24px;
+    margin-right: 20px;
+  }
+  .haed1 {
+    display: none;
+  }
+  .header1 {
+    width: 100%;
+  }
+  .maincont {
+    width: 100%;
+    text-align: left;
+  }
+  .lorem1 {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .maincard {
+    width: 100%;
+    padding: 0px;
+  }
+  .card2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .para12 {
+    max-width: 400px;
+    margin-top: 10px;
+  }
+  .haed23 {
+    margin-top: 20px;
+  }
+  .btn3 {
+    margin-top: 20px;
+  }
+  .para1 {
+    margin-top: 10px;
+    max-width: 500px;
+  }
+  .haed2 {
+    margin-top: 20px;
+  }
+  .ftr2 {
+    display: block !important;
+  }
+  .heading_div {
+    width: 100%;
+    height: 100%;
+  }
+  .btn22 {
+    width: 100%;
+    max-width: 300px;
+    background: linear-gradient(90deg, #47b7e5 -2.97%, #5369f6 102.38%);
+    border-radius: 24px;
+    font-size: 15px;
+    color: #fff;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  .last {
+    width: 40%;
+  }
+  .last2 {
+    width: 100%;
+  }
+  .img55 {
+    width: 100%;
+    margin-top: 4rem;
+  }
+}
+/* ============= */
+@media only screen and (max-width: 425px) {
+  .header1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+  }
+  .ftr2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .heading_div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .white {
+    width: 100%;
+  }
+  .text {
+    /* width: 100%; */
+  }
+  .logo {
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+
+/* =============footer===== */
+
+.ftr2 {
+  width: 100%;
+  height: 100%;
+  background-color: #031d44;
+  margin-top: -5px;
+  display: none;
+  padding: 18px;
+  max-width: 500px;
+}
+.foohd {
+  background: -webkit-linear-gradient(#3dbae3, #3bdcd6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.05em;
+}
+.white {
+  width: 100%;
+  color: #ffff;
+  font-size: 34px;
+  word-spacing: 5px;
+  letter-spacing: 0.05em;
+}
+.iccoc {
+  align-items: center;
+  margin-top: 10%;
+}
+.btn2 {
+  max-width: 300px;
+  background: linear-gradient(90deg, #47b7e5 -2.97%, #5369f6 102.38%);
+  border-radius: 28px;
+  font-size: 20px;
+  color: #fff;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+.ic3 {
+  margin-top: 8px;
+  margin-left: 10px;
+  color: #47b7e5;
+}
+.fff12 {
+  color: #fff;
+}
+.b4u {
+  color: #b2f5ec;
+  margin-top: 20px;
+}
+.imgggg {
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+
+.mainmain {
+  width: 100%;
+  height: 100%;
+}
+.heading_div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.suggestic {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.last {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.btnn {
+  margin-top: 20px;
+}
+.last2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.sugg {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: end;
+  color: #d1f7ff;
+  font-weight: 300;
+}
+.far {
+  font-size: 22px;
+  margin-top: 8px;
+}
+.top1 {
+  color: #fff;
+  letter-spacing: 1px;
+}
+.top2 {
+  color: #d1f7ff;
+  margin-top: 20px;
+}
+.top {
+  color: #d1f7ff;
+}
+.top3 {
+  margin-top: -15px;
+  color: #d1f7ff;
+}
+.top4 {
+  margin-top: 20px;
+  color: #d1f7ff;
+}
